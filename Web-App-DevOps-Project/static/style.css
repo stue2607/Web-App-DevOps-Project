@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Add border and spacing to the table */
+.order-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style table header cells */
+.order-table th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Style table data cells */
+.order-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Alternate row background color */
+.order-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on rows */
+.order-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Position pagination controls at bottom right */
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Style pagination links */
+.pagination-link {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+/* Style current page indicator */
+.pagination span {
+    margin: 0 10px;
+}
+
+/* Additional styling for tabs and tab content */
+.tab-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tab {
+    display: none;
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+#tab-orders:checked ~ .tab-content:nth-child(1),
+#tab-add-order:checked ~ .tab-content:nth-child(2) {
+    display: block;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab-label {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #fff; /* Set default text color to white */
+    background-color: #007bff; /* Set default background color to blue */
+}
+
+.tab-label:hover {
+    background-color: #fff; /* Change background to white on hover */
+    color: #007bff; /* Change text color to blue on hover */
+}
+
+.tab-label:checked {
+    background-color: #fff; /* Change background to white when checked */
+    color: #007bff; /* Change text color to blue when checked */
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header h1 {
+    color: #007bff;
+    font-size: 24px;
+}
+
+.tab-title {
+    text-align: left;
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
