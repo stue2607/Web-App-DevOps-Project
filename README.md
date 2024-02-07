@@ -406,6 +406,7 @@ Within the code (specifically calling the cluster module) you will see variables
 [![main-calling-cluster-secrets.png](https://i.postimg.cc/s2yYmT7g/main-calling-cluster-secrets.png)](https://postimg.cc/SnTYN7gB) <br>
 <br>
 Main can now be initialized using the same command as you have been <br>
+```terraform init```<br>
 [![terraform-init.png](https://i.postimg.cc/X7vN9wZS/terraform-init.png)](https://postimg.cc/6TDNX4LY) <br>
 [![terraform-initialized.png](https://i.postimg.cc/R0wvvdYf/terraform-initialized.png)](https://postimg.cc/8Fk2HRNP) <br>
 <br>
