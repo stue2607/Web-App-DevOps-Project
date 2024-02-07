@@ -149,8 +149,13 @@
   Putting the address in the browser; <br>
   ```docker build -t webapp . ```
  <br>
+ 
   **And here is the app you have just containerized** <br>
-  [![the-app.png](https://i.postimg.cc/Nf3PZ522/the-app.png)](https://postimg.cc/hf0rd4rK)</details>
+  
+  [![the-app.png](https://i.postimg.cc/Nf3PZ522/the-app.png)](https://postimg.cc/hf0rd4rK)
+
+  </details>
+
 </details>
 
 <details><summary>DOCKER CHEATSHEET</summary>
